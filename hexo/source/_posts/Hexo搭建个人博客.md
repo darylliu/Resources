@@ -38,7 +38,7 @@ hexo init hexo
 hexo server
 ```
 出现下图所示，即为成功
-![](/img/hexo1.png)
+![](/img/hexo搭建个人博客/hexo1.png)
 可以看到已经成功运行在了本地
 ``` 
 http://localhost:4000/
@@ -138,7 +138,7 @@ http://localhost:4000/
 	
 #### 阅读全文
 有的时候我们希望在主页不要全部显示文章内容，希望在合适的地方截断，并提示显示阅读全文，如下图所示
-	![](/img/hexo2.png)
+	![](/img/hexo搭建个人博客/hexo2.png)
 我们可以在文章内部希望截断的地方添加
 
 	//主页显示内容
