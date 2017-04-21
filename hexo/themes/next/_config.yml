@@ -467,6 +467,8 @@ local_search:
 # Alias: {% extlink text url "title" %}
 exturl: false
 
+reward_comment: 您的支持将鼓励我继续创作！
+wechatpay: /uploads/wechat-qcode.png
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
