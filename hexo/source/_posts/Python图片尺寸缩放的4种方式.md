@@ -2,6 +2,7 @@
 title: Python图片尺寸缩放的4种方式
 date: 2015-01-17 21:49:53
 tags: Python
+categories: 笔记
 ---
 
 
@@ -11,7 +12,7 @@ tags: Python
 
 <!-- more -->
 
-```
+```python
 #coding=utf-8
 import Image
 import shutil

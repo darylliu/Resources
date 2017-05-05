@@ -2,6 +2,7 @@
 title: hexo搭建个人博客
 date: 2017-04-21 10:43:23
 tags: hexo
+categories: 笔记
 ---
 
 # hexo搭建个人博客

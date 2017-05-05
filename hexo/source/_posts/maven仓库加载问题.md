@@ -2,6 +2,7 @@
 title: maven仓库加载问题
 date: 2016-03-12 10:43:23
 tags: maven
+categories: 笔记
 ---
 
 # maven仓库加载问题

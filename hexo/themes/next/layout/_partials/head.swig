@@ -18,7 +18,7 @@
 
 
 {% if theme.google_site_verification %}
-  <meta name="google-site-verification" content="{{ theme.google_site_verification }}" />
+  <meta name="google-site-verification" content="ZSp04rbx33DQlnfdEYHTQoJf3MV6Cqdccz_PNo0SA8o" />
 {% endif %}
 
 
