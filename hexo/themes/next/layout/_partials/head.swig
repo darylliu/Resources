@@ -18,7 +18,7 @@
 
 
 {% if theme.google_site_verification %}
-  <meta name="google-site-verification" content="ZSp04rbx33DQlnfdEYHTQoJf3MV6Cqdccz_PNo0SA8o" />
+<meta name="google-site-verification" content="ZSp04rbx33DQlnfdEYHTQoJf3MV6Cqdccz_PNo0SA8o" />
 {% endif %}
 
 
@@ -28,7 +28,7 @@
 
 
 {% if theme.baidu_site_verification %}
-  <meta name="baidu-site-verification" content="S2iQxs26pA" />
+  <meta name="baidu-site-verification" content="VrXSW8gFwn" />
 {% endif %}
 
 
