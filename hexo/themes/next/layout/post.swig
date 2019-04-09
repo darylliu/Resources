@@ -7,12 +7,10 @@
 
 {% block page_class %}page-post-detail{% endblock %}
 
-
 {% block content %}
 
   <div id="posts" class="posts-expand">
     {{ post_template.render(page) }}
-    {% include '_custom/google_adsense.swig' %}
 
     <div class="post-spread">
       {% if theme.jiathis %}
