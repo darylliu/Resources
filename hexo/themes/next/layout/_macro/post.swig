@@ -247,8 +247,9 @@
         </div>
       </header>
     {% endif %}
-
+    
     <div class="post-body{% if theme.han %} han-init-context{% endif %}" itemprop="articleBody">
+
       {# Gallery support #}
       {% if post.photos and post.photos.length %}
         <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
@@ -306,6 +307,7 @@
           {% endif %}
         {% endif %}
       {% else %}
+        {% include '../_custom/google_adsense.swig' %}
         {{ post.content }}
       {% endif  %}
     </div>
