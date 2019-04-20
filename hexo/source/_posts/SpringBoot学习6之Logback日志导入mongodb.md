@@ -1,8 +1,12 @@
 ---
 title: SpringBoot学习6之Logback日志导入mongodb
-date: 2016-12-16 14:27:17
-tags: [SpringBoot, Logback, mongodb]
+tags:
+  - SpringBoot
+  - Logback
+  - mongodb
 categories: 专题
+abbrlink: c31d0419
+date: 2016-12-16 14:27:17
 ---
 
 # SpringBoot学习6之Logback日志导入mongodb

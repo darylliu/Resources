@@ -1,8 +1,11 @@
 ---
 title: 从同步阻塞聊到Java三种IO方式
-date: 2018-03-22 15:23:27
-tags: [Java, IO]
+tags:
+  - Java
+  - IO
 categories: 笔记
+abbrlink: aefafc8e
+date: 2018-03-22 15:23:27
 ---
 # 从同步阻塞聊到Java三种IO方式
 

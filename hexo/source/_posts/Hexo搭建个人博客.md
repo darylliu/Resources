@@ -1,8 +1,9 @@
 ---
 title: hexo搭建个人博客
-date: 2017-04-21 10:43:23
 tags: hexo
 categories: 笔记
+abbrlink: 64e2e0e2
+date: 2017-04-21 10:43:23
 ---
 
 # hexo搭建个人博客

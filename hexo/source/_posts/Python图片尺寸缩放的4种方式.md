@@ -1,8 +1,9 @@
 ---
 title: Python图片尺寸缩放的4种方式
-date: 2015-01-17 21:49:53
 tags: Python
 categories: 笔记
+abbrlink: 9c4cfe08
+date: 2015-01-17 21:49:53
 ---
 
 

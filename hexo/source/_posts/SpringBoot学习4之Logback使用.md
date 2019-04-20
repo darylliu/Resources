@@ -1,8 +1,9 @@
 ---
 title: SpringBoot学习4之Logback使用
-date: 2016-11-25 16:11:15
 tags: SpringBoot
 categories: 专题
+abbrlink: 95f4c9d7
+date: 2016-11-25 16:11:15
 ---
 
 

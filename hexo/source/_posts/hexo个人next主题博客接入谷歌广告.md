@@ -1,8 +1,19 @@
 ---
 title: hexo个人next主题博客接入谷歌广告
-date: 2019-04-12 10:43:23
-tags: [hexo,next,adsense]
+tags:
+  - hexo
+  - next
+  - adsense
 categories: 杂谈
+keywords:
+  - adsense
+  - hexo
+  - next
+  - 个人博客
+  - 广告
+description: 个人博客搭了大概也有大半年的时间，陆陆续续更新了一些文章，虽然每天整个网站的浏览量不是特别高，但是也希望能够引入网站的流量变现（蚊子腿再小也是肉啊...），于是自己查阅了相关的资料，整理了一份完整的，接入谷歌广告联盟google adsense的一套完整流程，供大家参考～。
+abbrlink: 6a1f6623
+date: 2019-04-12 10:43:23
 ---
 
 ## 前言
@@ -45,7 +56,9 @@ enable_page_level_ads: true
 ## 个性化配置广告位
 
 待通过审核之后，就可以开始考虑在自己的网站上进行广告位置的筛选和设计了，目前google adsense主要提供了自动广告和广告单元两种形式的广告添加方式。
+
 #### 自动广告
+
 自动广告是google adsense近来提供的一种广告形式，它能够通过分析你的博客布局结构，自定义的在你的网站中插入合适的广告，无论是内容，还是广告尺寸，都是完全契合网站内容本身的，算是一种比较高质量的广告。
 
 但是根据我的使用经验，这种广告投放的几率比较小，往往好几篇文章或页面才会投放一个广告内容，效率比较低(唯一的好处是，如果你的网站支持移动端查看的话，会自动投放移动端自适应的广告)
@@ -53,6 +66,7 @@ enable_page_level_ads: true
 具体的代码插入方法，其实就是上述的用来检验的代码，一旦上述代码审核通过，其实已经自动接入了google adsense的自动广告。
 
 #### 广告单元
+
 为了能够最高效的利用自己博客的广告位，adsense还提供了三种固定广告位
 1. 文字广告和展示广告(即侧边栏，评论区之类的固定广告位)
 2. 信息流广告(插入在信息流内容的广告位置)
@@ -64,8 +78,8 @@ enable_page_level_ads: true
 
 这里，本人根据个人经验，提供几种针对hexo的next主题广告代码位置的插入。
 
-＋ 插入评论区：将代码插入*\themes\next\layout\_partials\comments.swig *中的末尾即可。 
-＋ 插入侧边栏：将代码插入*\themes\next\layout\_macro\sidebar.swig *文件中&lt;div class="sidebar-inner"&gt; &lt;/div&gt;的最下侧即可
+1. 插入评论区：将代码插入*\themes\next\layout\_partials\comments.swig *中的末尾即可。 
+2. 插入侧边栏：将代码插入*\themes\next\layout\_macro\sidebar.swig *文件中&lt;div class="sidebar-inner"&gt; &lt;/div&gt;的最下侧即可
 
 ```
 <div class="sidebar-inner">
@@ -95,14 +109,16 @@ enable_page_level_ads: true
 </div>
 ```
 
-＋ 插入文章头部：在*\themes\next\layout\_custom\post.swig * 目录下，新建google_adsense.swig，并将google提供的广告代码放入其中，然后将
+3. 插入文章头部：在*\themes\next\layout\_custom\post.swig * 目录下，新建google_adsense.swig，并将google提供的广告代码放入其中，然后将
+
 ```
 {% include '../_custom/google_adsense.swig' %}
 ```
+
 插入*\themes\next\layout\_macro\post.swig *文件中
+
 ```
 <div class="post-body{% if theme.han %} han-init-context{% endif %}" itemprop="articleBody">
-
       {# Gallery support #}
       {% if post.photos and post.photos.length %}
         <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
@@ -163,11 +179,14 @@ enable_page_level_ads: true
         {% include '../_custom/google_adsense.swig' %}
         {{ post.content }}
       {% endif  %}
-    </div>
+</div>
 ```
+
 注意，这里不要搞错，误插入到*\themes\next\layout\post.swig *文件中了，这样不仅仅会导致每篇文章里存在广告，在首页的列表中，每篇文章同样也都会带上广告，导致首页一次刷出来N个广告，影响网站布局和设计。
 
+
 ## 注意事项
+
 在成功接入AdSense广告之后，并不算结束，Google会根据几种方式和数据判断广告点击是否作弊，从而注销你的账号。所以不要心存侥幸心理，好好发原创文章，提高网站的质量才是王道。
 
 1. 作弊广告点击者的IP地址与你Adsense账户登录IP地址相同
@@ -180,4 +199,5 @@ enable_page_level_ads: true
 8. 在网页上用文字提示请求鼓动点击广告
 
 ## 说在最后
+
 现在通过adsense本身能赚到的收入本身并不高，尤其是博客类的网站更是如此，但是既然大家愿意花时间和精力去搭建个人博客，除了钱以外，肯定还有其他的目的，希望大家不要舍本逐末，忘记了自己搭建博客的初衷，毕竟广告收入这个事情，有当然好，没有也不用气馁，尽力就好～

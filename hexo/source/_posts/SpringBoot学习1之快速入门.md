@@ -1,8 +1,9 @@
 ---
 title: SpringBoot学习1之快速入门
-date: 2016-10-20 09:32:47
 tags: SpringBoot
 categories: 专题
+abbrlink: c3b398db
+date: 2016-10-20 09:32:47
 ---
 # SpringBoot学习1之快速入门
 

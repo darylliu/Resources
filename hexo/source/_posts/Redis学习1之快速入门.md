@@ -1,8 +1,9 @@
 ---
 title: Redis学习1之快速入门
-date: 2016-09-08 19:38:30
 tags: Redis
 categories: 专题
+abbrlink: 2d430af1
+date: 2016-09-08 19:38:30
 ---
 
 # Redis学习1之快速入门

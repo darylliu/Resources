@@ -1,8 +1,9 @@
 ---
 title: Windows下pip安装以及virtualenv环境搭建
-date: 2015-01-16 14:44:34
 tags: Python
 categories: 笔记
+abbrlink: b27d46ae
+date: 2015-01-16 14:44:34
 ---
 
 # Windows下pip安装以及virtualenv环境搭建

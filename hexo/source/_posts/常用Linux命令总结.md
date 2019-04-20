@@ -1,8 +1,9 @@
 ---
 title: 常用Linux命令总结
-date: 2015-07-01 17:57:27
 tags: Linux
 categories: 笔记
+abbrlink: 406cb8db
+date: 2015-07-01 17:57:27
 ---
 
 # 常用Linux命令总结

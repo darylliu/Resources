@@ -1,8 +1,9 @@
 ---
 title: SpringBoot学习3之数据库集成mybatis
-date: 2016-11-03 14:05:39
 tags: SpringBoot
 categories: 专题
+abbrlink: 6c6770f1
+date: 2016-11-03 14:05:39
 ---
 # SpringBoot学习3之数据库集成mybatis
 

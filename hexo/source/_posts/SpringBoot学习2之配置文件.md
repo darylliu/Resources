@@ -1,8 +1,9 @@
 ---
 title: SpringBoot学习2之配置文件
-date: 2016-10-22 11:47:27
 tags: SpringBoot
 categories: 专题
+abbrlink: dfe00fa8
+date: 2016-10-22 11:47:27
 ---
 # SpringBoot学习2之配置文件
 

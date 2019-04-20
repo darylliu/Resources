@@ -1,8 +1,9 @@
 ---
 title: SpringBoot学习5之自定义注解
-date: 2016-12-01 11:54:30
 tags: SpringBoot
 categories: 专题
+abbrlink: f3a05c35
+date: 2016-12-01 11:54:30
 ---
 
 # SpringBoot学习5之自定义注解
