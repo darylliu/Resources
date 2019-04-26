@@ -57,7 +57,7 @@ enable_page_level_ads: true
 
 待通过审核之后，就可以开始考虑在自己的网站上进行广告位置的筛选和设计了，目前google adsense主要提供了自动广告和广告单元两种形式的广告添加方式。
 
-#### 自动广告
+### 自动广告
 
 自动广告是google adsense近来提供的一种广告形式，它能够通过分析你的博客布局结构，自定义的在你的网站中插入合适的广告，无论是内容，还是广告尺寸，都是完全契合网站内容本身的，算是一种比较高质量的广告。
 
@@ -65,7 +65,7 @@ enable_page_level_ads: true
 
 具体的代码插入方法，其实就是上述的用来检验的代码，一旦上述代码审核通过，其实已经自动接入了google adsense的自动广告。
 
-#### 广告单元
+### 广告单元
 
 为了能够最高效的利用自己博客的广告位，adsense还提供了三种固定广告位
 1. 文字广告和展示广告(即侧边栏，评论区之类的固定广告位)
@@ -78,8 +78,8 @@ enable_page_level_ads: true
 
 这里，本人根据个人经验，提供几种针对hexo的next主题广告代码位置的插入。
 
-1. 插入评论区：将代码插入*\themes\next\layout\_partials\comments.swig *中的末尾即可。 
-2. 插入侧边栏：将代码插入*\themes\next\layout\_macro\sidebar.swig *文件中&lt;div class="sidebar-inner"&gt; &lt;/div&gt;的最下侧即可
++ 插入评论区：将代码插入*\themes\next\layout\_partials\comments.swig *中的末尾即可。 
++ 插入侧边栏：将代码插入*\themes\next\layout\_macro\sidebar.swig *文件中&lt;div class="sidebar-inner"&gt; &lt;/div&gt;的最下侧即可
 
 ```
 <div class="sidebar-inner">
@@ -109,7 +109,7 @@ enable_page_level_ads: true
 </div>
 ```
 
-3. 插入文章头部：在*\themes\next\layout\_custom\post.swig * 目录下，新建google_adsense.swig，并将google提供的广告代码放入其中，然后将
++ 插入文章头部：在*\themes\next\layout\_custom\post.swig * 目录下，新建google_adsense.swig，并将google提供的广告代码放入其中，然后将
 
 ```
 {% include '../_custom/google_adsense.swig' %}
