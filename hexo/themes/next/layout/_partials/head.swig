@@ -124,7 +124,7 @@
   });
 </script>
 
-<meta name="baidu_union_verify" content="8fad4fbcac6856ec38890555a6fdd4ad">
+<meta name="baidu_union_verify" content="7058648a0c1c91b6bed180f61350f4a8">
 
 {# Canonical, good for google search engine (SEO) : https://support.google.com/webmasters/answer/139066 #}
 {% if theme.canonical %}
