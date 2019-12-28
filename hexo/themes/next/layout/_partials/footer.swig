@@ -19,4 +19,17 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
+
+<div class="theme-info">
+  {{ __('footer.theme') }} -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.{{ theme.scheme }}
+  </a>
+</div>
+<div class=BbeiAn-info">
+  {{ __('京ICP备') }} -
+  <a href="http://www.beian.miit.gov.cn">19031408号-1</a>
+  </a>
+</div>
+{% endif %}
 {% endif %}
